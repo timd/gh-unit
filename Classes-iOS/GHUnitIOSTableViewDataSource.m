@@ -93,7 +93,7 @@
         cell.textLabel.textColor = [UIColor redColor];
       }
     } else if ([node status] == GHTestStatusSucceeded) {
-      cell.textLabel.textColor = [UIColor greenColor];
+      cell.textLabel.textColor = [UIColor colorWithRed:0.13f green:0.6f blue:0.31f alpha:1.0f];
     } else if (node.isSelected) {
       if (node.isSelected) cell.textLabel.textColor = [UIColor darkGrayColor];
     }
